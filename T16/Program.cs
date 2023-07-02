@@ -15,11 +15,11 @@ int secondNumber = Convert.ToInt32(Console.ReadLine());
 
 if (firstNumber == secondNumber * secondNumber || secondNumber == firstNumber * firstNumber)
 {
-    Console.WriteLine("да");
+    Console.WriteLine("Одно число является квадратом другого");
 }
 else
 {
-    Console.WriteLine("нет");
+    Console.WriteLine("Одно число НЕ является квадратом другого");
 }
 
 
