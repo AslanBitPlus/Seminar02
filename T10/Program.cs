@@ -6,9 +6,6 @@ Console.Write("Введите трехзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 
-// int firstDigit = number / 100;
-// int secondDigit = (number - firstDigit * 100) / 10;
-// int thirdDigit = number % 10;
 if (number < 0)
 {
     number *= -1;
