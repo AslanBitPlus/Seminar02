@@ -11,11 +11,8 @@ int secondNumber = 23;
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-// double multipFirstNumber = number % firstNumber;
-// double multipSecondNumber = number % secondNumber;
 
-
-if ((number % firstNumber == 0) & (number % secondNumber == 0))
+if (number % firstNumber == 0 && number % secondNumber == 0)
 {
     Console.WriteLine($"{number} кратно {firstNumber} и {secondNumber} одновременно");
 }
