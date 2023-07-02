@@ -21,7 +21,7 @@ if (number < 100 || number > 999)
 }
 else
 {
-    int secondDigit = (number - (number / 100) * 100) / 10;
+    int secondDigit = (number / 10) % 10;
     Console.WriteLine($"Вторая цифра числа {number} -> {secondDigit}");
 }
 
